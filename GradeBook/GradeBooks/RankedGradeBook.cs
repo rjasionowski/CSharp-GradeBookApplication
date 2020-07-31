@@ -14,7 +14,7 @@ namespace GradeBook.GradeBooks
         double cCutoff = 0.0;
         double dCutOff = 0.0;
 
-        public RankedGradeBook(string name) : base(name)
+        public RankedGradeBook(string name, bool isWeighted) : base(name)
         {
             this.Type = GradeBookType.Ranked;
         }
